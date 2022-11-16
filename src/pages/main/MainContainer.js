@@ -7,6 +7,7 @@ import NavBar from '../../components/navbar/NavBar';
 import ButtonCnt from '../../components/utils/ButtonCnt';
 import ImgCnt from '../../components/utils/ImgCnt';
 import TextContainer from '../../components/utils/TextContainer';
+import Card from '../../components/card/Card';
 
 const MainContainer = () => {
   return (
@@ -53,7 +54,21 @@ const MainContainer = () => {
           />
         </div>
       </div>
-      <div></div>
+      <div className='second-txt-cnt'>
+        <TextContainer
+          styleTwo={{
+            height: 'fit-content',
+            width: '820px',
+          }}
+          style={{ fontSize: '28px' }}
+          text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+        />
+      </div>
+      <div className='main-card-cnt'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 };

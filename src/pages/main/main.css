@@ -13,5 +13,16 @@
   margin: 150px;
 }
 
-.main-first-img-cnt {
+.second-txt-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-card-cnt {
+  display: flex;
+  gap: 2rem;
+  margin-top: 100px;
+  justify-content: center;
+  padding-right: 10%;
 }
