@@ -1,0 +1,21 @@
+.main-nav-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.nav-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 2rem;
+  width: 782px;
+  height: 36px;
+}
+
+.nav-txt {
+  font-size: larger;
+  font-style: bold;
+}
