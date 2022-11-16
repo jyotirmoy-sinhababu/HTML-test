@@ -1,0 +1,17 @@
+.main-first-cnt {
+  display: flex;
+  justify-content: center;
+  max-width: 1350px;
+  width: 100%;
+  gap: 4rem;
+}
+
+.main-first-txt-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin: 150px;
+}
+
+.main-first-img-cnt {
+}

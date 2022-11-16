@@ -4,8 +4,8 @@ import Box from '../../images/imagetwo.png';
 
 const Logo = () => {
   return (
-    <div className='img-cnt'>
-      <img className='img' src={Box} alt='logo' />
+    <div className='logo-cnt'>
+      <img className='logo' src={Box} alt='logo' />
     </div>
   );
 };
