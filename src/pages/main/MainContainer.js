@@ -7,6 +7,7 @@ import thirdPer from '../../images/personThird.png';
 import hand from '../../images/hand.png';
 import arrow from '../../images/arrow.png';
 import hiring from '../../images/hiring.png';
+import star from '../../images/star.png';
 
 import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/navbar/NavBar';
@@ -264,6 +265,24 @@ const MainContainer = () => {
           style={{ fontSize: '28px' }}
           text={'Lorem ipsum dolor sit.'}
         />
+      </div>
+      <div className='main-sixth-ctn'>
+        <div className='main-sixth-head-ctn'>
+          <ImgCnt
+            style={{
+              width: '70px',
+              height: '70px',
+            }}
+            img={star}
+          />
+          <h3>Lorem ipsum dolor sit.</h3>
+        </div>
+        <div className='main-sixth-body-ctn'>
+          {' '}
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     </div>
   );

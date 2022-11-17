@@ -84,3 +84,23 @@
   margin: 95px;
   padding-left: 30%;
 }
+
+.main-sixth-ctn {
+  width: 1097px;
+  height: 363px;
+  background: #f8fafc 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 42px;
+  opacity: 1;
+}
+
+.main-sixth-head-ctn {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.main-sixth-body-ctn {
+  display: flex;
+  gap: 2rem;
+}
