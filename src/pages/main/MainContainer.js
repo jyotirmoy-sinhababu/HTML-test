@@ -1,6 +1,9 @@
 import './main.css';
 
 import imgOne from '../../images/imageone.png';
+import firstPer from '../../images/personOne.png';
+import secPer from '../../images/personTwo.png';
+import thirdPer from '../../images/personThird.png';
 
 import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/navbar/NavBar';
@@ -68,6 +71,66 @@ const MainContainer = () => {
         <Card />
         <Card />
         <Card />
+      </div>
+      <div className='third-txt-cnt'>
+        <TextContainer
+          styleTwo={{
+            height: 'fit-content',
+            width: '820px',
+          }}
+          style={{ fontSize: '28px' }}
+          text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+        />
+      </div>
+      <div className='main-img-and-card-cnt'>
+        <div>
+          <ImgCnt img={firstPer} />
+          <Card
+            style={{
+              width: '328px',
+              height: '168px',
+              textAlign: 'left',
+              font: 'normal normal normal 18px/24px Nunito Sans',
+              letterSpacing: '0px',
+              color: '#000000',
+              opacity: '1',
+            }}
+          />
+        </div>
+        <div>
+          <ImgCnt img={secPer} />
+          <Card
+            style={{
+              width: '328px',
+              height: '168px',
+              textAlign: 'left',
+              font: 'normal normal normal 18px/24px Nunito Sans',
+              letterSpacing: '0px',
+              color: '#000000',
+              opacity: '1',
+            }}
+          />
+        </div>
+        <div>
+          <ImgCnt
+            img={thirdPer}
+            style={{
+              width: '220px',
+              height: '190px',
+            }}
+          />
+          <Card
+            style={{
+              width: '328px',
+              height: '168px',
+              textAlign: 'left',
+              font: 'normal normal normal 18px/24px Nunito Sans',
+              letterSpacing: '0px',
+              color: '#000000',
+              opacity: '1',
+            }}
+          />
+        </div>
       </div>
     </div>
   );

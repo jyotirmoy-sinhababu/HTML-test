@@ -1,8 +1,8 @@
 import './card.css';
 
-const Card = () => {
+const Card = ({ style }) => {
   return (
-    <div className='card-cnt'>
+    <div className='card-cnt' style={style}>
       <p className='card-cnt-first-txt'>lorem ipsum dolor sit</p>
       <p className='card-cnt-second-txt'>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,

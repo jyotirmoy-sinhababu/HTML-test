@@ -26,3 +26,15 @@
   justify-content: center;
   padding-right: 10%;
 }
+
+.third-txt-cnt {
+  display: flex;
+  justify-content: center;
+  margin: 95px;
+}
+
+.main-img-and-card-cnt {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}

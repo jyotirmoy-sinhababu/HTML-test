@@ -8,6 +8,7 @@
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 18px;
   opacity: 1;
+  padding: 15px;
 }
 
 .card-cnt-first-txt {
@@ -16,5 +17,6 @@
 }
 
 .card-cnt-second-txt {
+  margin-top: 4px;
   padding: 3px;
 }
