@@ -38,3 +38,49 @@
   justify-content: center;
   gap: 4rem;
 }
+
+.main-small-card-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.small-card-cnt {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  gap: 0.8rem;
+}
+
+.small-card-cnt-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10%;
+  gap: 0.8rem;
+}
+
+.small-card-cnt-three {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  gap: 0.8rem;
+}
+
+.small-logo-txt-ctn {
+  display: flex;
+}
+
+.small-txt-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth-txt-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 95px;
+  padding-left: 30%;
+}
