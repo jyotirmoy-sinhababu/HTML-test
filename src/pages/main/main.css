@@ -92,15 +92,54 @@
   box-shadow: 0px 16px 48px #00000029;
   border-radius: 42px;
   opacity: 1;
+  margin-left: 10%;
 }
 
 .main-sixth-head-ctn {
   display: flex;
+  padding-left: 5%;
   align-items: center;
   gap: 1.2rem;
 }
 
 .main-sixth-body-ctn {
   display: flex;
+  justify-content: center;
+  padding-top: 10%;
   gap: 2rem;
+}
+
+.small-logo-cnt {
+  display: flex;
+  margin-left: 23%;
+  gap: 10rem;
+}
+
+.empty-div {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 12%;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 3px;
+  height: 150px;
+  width: 1300px;
+  background-color: black;
+  gap: 0.5rem;
+}
+
+.c-cnt,
+.emp-txt {
+  color: white;
+}
+.c-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+  height: 15px;
+  width: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
 }

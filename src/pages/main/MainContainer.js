@@ -8,6 +8,9 @@ import hand from '../../images/hand.png';
 import arrow from '../../images/arrow.png';
 import hiring from '../../images/hiring.png';
 import star from '../../images/star.png';
+import cube from '../../images/cube.png';
+import fire from '../../images/fire.png';
+import lectro from '../../images/lectro.png';
 
 import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/navbar/NavBar';
@@ -283,6 +286,45 @@ const MainContainer = () => {
           <Card />
           <Card />
         </div>
+      </div>
+      <div>
+        <TextContainer
+          styleTwo={{
+            height: 'fit-content',
+            width: '820px',
+            margin: '200px',
+            paddingLeft: '165px',
+          }}
+          style={{ fontSize: '28px' }}
+          text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+        />
+      </div>
+      <div className='small-logo-cnt'>
+        <div>
+          <ImgCnt img={fire} />
+          <div>
+            {' '}
+            <h3>Forms on fire</h3>
+          </div>
+        </div>
+        <div>
+          <ImgCnt img={lectro} />
+          <div>
+            {' '}
+            <h3>ElectroNeek Studio IDE</h3>
+          </div>
+        </div>
+        <div>
+          <ImgCnt style={{ height: '100px', width: '100px' }} img={cube} />
+          <div>
+            {' '}
+            <h3>Jot form</h3>
+          </div>
+        </div>
+      </div>
+      <div className='empty-div'>
+        <div className='c-cnt'>c</div>
+        <div className='emp-txt'>Helplama 2021</div>
       </div>
     </div>
   );
